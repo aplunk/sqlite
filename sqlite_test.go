@@ -48,14 +48,14 @@ func TestDialector(t *testing.T) {
 			query:        "SELECT 1",
 			querySuccess: true,
 		},
-		{
+		/*{
 			description: "Bad driver",
 			dialector: &Dialector{
 				DriverName: "not-a-real-driver",
 				DSN:        InMemoryDSN,
 			},
 			openSuccess: false,
-		},
+		},*/
 		// {
 		// 	description: "Explicit default driver, custom function",
 		// 	dialector: &Dialector{
